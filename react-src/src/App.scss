@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Test-Parallax {
+  display: flex;
+  justify-content: center;
+
+  // Background with the Parallax
+  &.Parallax-Background,
+  &.Parallax-Background-Middle {
+    width: 1080px;
+    height: 1280px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:absolute;
+
+  }
+
+  &.Parallax-Background {
+    // Here is the image url
+  }
+
+
+
+
+}
