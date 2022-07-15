@@ -1,0 +1,116 @@
+.Hero_Banner {
+    height: 830px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+// ( ******************************** PARALLAX CSS ******************************** )
+  .Test-Parallax {
+    display: flex;
+    justify-content: center;
+  
+    // Background with the Parallax
+    .Parallax-Background{
+      width: 1080px;
+      height: 1280px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      background-color: white;
+    }
+  
+    .Parallax-Background-2{
+      margin-top: 500px;
+      width: 1080px;
+      height: 1280px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      background-color: white;
+    }
+  
+    .Parallax-Background-Middle {
+      width: 500px;
+      height: 450px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      margin-right: 1150px;
+    }
+  
+    .Parallax-Background-Middle-2 {
+      width: 450px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      margin-top: 300px;
+    }
+  
+    .Parallax-Background-Middle-3 {
+      width: 450px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      margin-left: 900px;
+      margin-top: -10px;
+    }
+  
+    .Parallax-Background {
+      // Turing States
+      background-image: url('../../assets/images/turing.svg');
+    }
+  
+    .Parallax-Background-2 {
+      // Turing States
+      background-image: url('../../assets/images/turing.svg');
+    }
+  
+    .Parallax-Background-Middle {
+    // Proof 1
+      background-image: url("../../assets/images/proof1.png");
+    }
+  
+    .Parallax-Background-Middle-2 {
+      // Sample
+        background-image: url("../../assets/images/f.webp");
+    }
+  
+    .Parallax-Background-Middle-3 {
+      // Floyd Cycle Detection
+        background-image: url("../../assets/images/proof2.png");
+    }
+  
+    .Some_Stuff {
+      width: 1300px;
+      margin-top: 600px;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 1;
+      position: relative;
+      background-color: white;
+    }
+  
+  }
+  
+  
+  
+  .stuff_1 {
+    width: 100%;
+    height: 500px;
+    margin-top: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    flex-direction: column;
+  }
