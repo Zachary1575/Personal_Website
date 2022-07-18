@@ -2,6 +2,11 @@ import { useEffect, useState } from 'react';
 
 import "./Home.scss"
 
+import Fader from '../../components/Fade';
+import IntroTimer from '../../components/BannerIntro';
+import Fade from '../../components/Fade';
+
+
 export default function Home() {
 
     // Event-Y State, init value 0;
@@ -28,8 +33,15 @@ export default function Home() {
 
     return (
      <>
-      <div className='Hero_Banner'>
-        <h1>Welcome!</h1>
+     <div className='Hero_Banner_Container'>
+        <div className='Hero_Banner'>
+          <IntroTimer time={10000} />
+          <div className='Hero_Banner_Text'>
+            <Fader text="Welcome" time={2000} type='h1'/>
+            <Fader text="I am glad you are here" time={5000} type='p'/>
+          </div>
+          <Fade time={7000} type='img' />
+        </div>
       </div>
       
       {/* <ImageOne /> */}

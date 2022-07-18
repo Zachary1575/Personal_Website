@@ -4,7 +4,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
+
+.Hero_Banner_Text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Hero_Banner_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fade-in {
+    transition: opacity 1s ease;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
 
 
 // ( ******************************** PARALLAX CSS ******************************** )
